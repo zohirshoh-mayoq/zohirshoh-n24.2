@@ -75,7 +75,7 @@
         width: 275px;
         height: 45px;
         border: 0;
-        margin: 0;
+        margin-left: 5px;
         margin-right: 19px;
         padding: 0;
         padding: 15px;
@@ -102,6 +102,14 @@
         line-height: 19px;
         color: rgb(255, 255, 255);
         font-family: 'Rubik', sans-serif;
+    }
+
+    .main-link:hover{
+        background-color: rgba(114, 150, 236, 0.8);
+    }
+    
+    .main-link:active{
+        background-color: rgba(114, 150, 236, 0.6);
     }
     
     
@@ -151,7 +159,9 @@
     }
     
     .site-menu-hr{
-        border: 1px solid rgb(209, 209, 209);
+        border:none;
+        height: 1px;
+        background-color: rgb(209, 209, 209);
         width: 100%;
         margin: 0;
         margin-top: 20px;
@@ -245,6 +255,7 @@
     
     .logo-news {
         display: flex;
+        align-items: center;
     }
     
     .logo-news img{
@@ -258,6 +269,10 @@
         margin: 0;
         padding: 0;
         font-family: 'Rubik';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5E5F61;
     }
     
     .fourth-news{
@@ -333,8 +348,9 @@
     }
     
     .main-hr{
-        border: 1px solid rgb(210, 210, 210);
-        color: rgba(210, 210, 210, 1);
+        border:none;
+        height: 1px;
+        background-color: rgba(210, 210, 210, 1);
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
@@ -421,6 +437,7 @@
     
     .footer-nav-link {
         font-family: 'Rubik';
+        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
@@ -429,8 +446,11 @@
     }
     
     .footer-hr{
-        margin: 30px 0 30px;
+        margin: 30px 0 ;
         padding: 0;
+        border: none;
+        height: 1px;
+        background-color: #FFFFFF;
     }
     
     .footer-end{
@@ -454,11 +474,23 @@
         display: flex;
     }
     
-    .smi i{
-        margin: 0;
-        margin-right: 25px;
+    .last-smii{
+        margin-right: 0;
     }
     
-    .smi i :last-child{
-        margin: 0;
-    }  
+    .fb {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+    .ig {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+    .tg {
+        margin-right: 25px;
+        margin-bottom: 0;
+    }
+    .yt {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
